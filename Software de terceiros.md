@@ -2,58 +2,58 @@
 
 Os programas de terceiros que devem ser instalados pelo instalador estão listados a seguir, juntamento com os respectivos links para as páginas de download dos mesmos.
 
-* 7-Zip
+1. 7-Zip
 
-  https://www.7-zip.org/download.html
+   https://www.7-zip.org/download.html
 
-* Adobe Acrobat Reader DC
+1. Adobe Acrobat Reader DC
 
-  https://get.adobe.com/br/reader/
+   https://get.adobe.com/br/reader/
 
-* CPUID CPU-Z 1.91
+1. CPUID CPU-Z 1.91
 
-  https://www.cpuid.com/softwares/cpu-z.html
+   https://www.cpuid.com/softwares/cpu-z.html
 
-* Defraggler
+1. Defraggler
 
-  https://www.ccleaner.com/defraggler/download/standard
+   https://www.ccleaner.com/defraggler/download/standard
 
-* GIMP
+1. GIMP
 
-  https://www.gimp.org/downloads/
+   https://www.gimp.org/downloads/
 
-* Google Chrome
+1. Google Chrome
 
-  https://cloud.google.com/chrome-enterprise/browser/download?hl=pt-br
+   https://cloud.google.com/chrome-enterprise/browser/download?hl=pt-br
 
-* HeavyLoad
+1. HeavyLoad
 
-  https://customers.jam-software.de/downloadTrial.php?language=EN&article_no=402
+   https://customers.jam-software.de/downloadTrial.php?language=EN&article_no=402
 
-* LibreOffice
+1. LibreOffice
 
-  https://pt-br.libreoffice.org/baixe-ja/libreoffice-novo/
+   https://pt-br.libreoffice.org/baixe-ja/libreoffice-novo/
 
-* Mozilla Firefox
+1. Mozilla Firefox
 
-  https://www.mozilla.org/pt-BR/firefox/all/#product-desktop-release
+   https://www.mozilla.org/pt-BR/firefox/all/#product-desktop-release
 
-* Notepad++
+1. Notepad++
 
-  https://notepad-plus-plus.org/downloads/
+   https://notepad-plus-plus.org/downloads/
 
-* ownCloud
+1. ownCloud
 
-  https://owncloud.org/download/#owncloud-desktop-client-windows
+   https://owncloud.org/download/#owncloud-desktop-client-windows
 
-* TightVNC
+1. TightVNC
 
-  https://www.tightvnc.com/download.php
+   https://www.tightvnc.com/download.php
 
-* WinDirStat
+1. WinDirStat
 
-  https://windirstat.net/download.html
+   https://windirstat.net/download.html
 
-* WinRAR
+1. WinRAR
 
-  https://www.win-rar.com/download.html?&L=9
+   https://www.win-rar.com/download.html?&L=9
