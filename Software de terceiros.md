@@ -8,7 +8,7 @@ Os programas de terceiros que devem ser instalados pelo instalador estão listad
 
 1. Adobe Acrobat Reader DC
 
-   https://get.adobe.com/br/reader/
+   https://get.adobe.com/reader/enterprise/
 
 1. CPUID CPU-Z 1.91
 
