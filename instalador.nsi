@@ -13,7 +13,7 @@ Unicode True
 ; Pasta para extrair os instaladores de terceiros (AppData\Local\Temp\UTFPR)
 InstallDir $TEMP\UTFPR
 
-; Tornar em um instalador silecioso
+; Tornar em um instalador silencioso
 SilentInstall silent
 
 ; Função chamada na inicialização do instalador
@@ -49,12 +49,12 @@ SectionEnd
 
 Section "Install EXEs" SEC02
 	
-	ExecWait "$INSTDIR\acrobat.exe /s"
-	ExecWait "$INSTDIR\cpu_z.exe /s"
-	ExecWait "$INSTDIR\defraggler.exe /s"
-	ExecWait "$INSTDIR\gimp.exe /s"
-	ExecWait "$INSTDIR\heavy_load.exe /s"
-	ExecWait "$INSTDIR\notepad_pp.exe /s"
-	ExecWait "$INSTDIR\windir.exe /s"
-	ExecWait "$INSTDIR\winrar.exe /s"
+	; ExecWait "$INSTDIR\readerdc_br_a_crd_mpn_install.exe /sAll"
+	ExecWait "$INSTDIR\cpu_z.exe /VERYSILENT"
+	ExecWait "$INSTDIR\defraggler.exe /S"
+	ExecWait "$INSTDIR\gimp.exe /VERYSILENT /SUPPRESSMSGBOXES"
+	ExecWait "$INSTDIR\heavy_load.exe /VERYSILENT" 
+	ExecWait "$INSTDIR\notepad_pp.exe /S"
+	ExecWait "$INSTDIR\windir.exe /S"
+	ExecWait "$INSTDIR\winrar.exe /S"
 SectionEnd
