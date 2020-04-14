@@ -43,13 +43,19 @@ Section "Install MSIs" SEC01
 	; ownCloud reinicia a máquina por padrão, portanto é necessário impedi-lo
 	ExecWait '"msiexec" /i "$INSTDIR\owncloud.msi"  REBOOT=ReallySuppress  /qn'
 	; TightVNC tem a possibilidade de solicitar um reboot, logo também é suprimido
-	ExecWait '"msiexec" /i "$INSTDIR\tight_vnc.msi"  REBOOT=ReallySuppress  /qn'
+	; Também deve ser configurado uma senha, que é feito com as intruções seguintes
+	; Alterar somente o valor de VALUE_OF_PASSWORD
+	ExecWait '"msiexec" /i "$INSTDIR\tight_vnc.msi"  REBOOT=ReallySuppress  /qn\
+			SET_USEVNCAUTHENTICATION=1\
+			VALUE_OF_USEVNCAUTHENTICATION=1\
+			SET_PASSWORD=1\
+			VALUE_OF_PASSWORD=XXXXXXXX'
   
 SectionEnd
 
 Section "Install EXEs" SEC02
 	
-	; ExecWait "$INSTDIR\readerdc_br_a_crd_mpn_install.exe /sAll"
+	ExecWait "$INSTDIR\acrobat.exe /sAll"
 	ExecWait "$INSTDIR\cpu_z.exe /VERYSILENT"
 	ExecWait "$INSTDIR\defraggler.exe /S"
 	ExecWait "$INSTDIR\gimp.exe /VERYSILENT /SUPPRESSMSGBOXES"
