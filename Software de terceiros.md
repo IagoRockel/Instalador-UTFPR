@@ -4,7 +4,7 @@ Os programas de terceiros que devem ser instalados pelo instalador estão listad
 
 1. 7-Zip
 
-   https://www.7-zip.org/download.html
+   https://7zip.rnbastos.com/download.html
 
 1. Adobe Acrobat Reader DC
 
