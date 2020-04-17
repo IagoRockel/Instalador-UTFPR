@@ -63,4 +63,13 @@ Section "Install EXEs" SEC02
 	ExecWait "$INSTDIR\notepad_pp.exe /S"
 	ExecWait "$INSTDIR\windir.exe /S"
 	ExecWait "$INSTDIR\winrar.exe /S"
+
+SectionEnd
+
+Section "Delete files" SEC03
+
+	; Remove todos os arquivos utilizados para a instalação
+	; Garante que serão excluídos após um reboot
+	RMDir /R /REBOOTOK "$INSTDIR"
+
 SectionEnd
